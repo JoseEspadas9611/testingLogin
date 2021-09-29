@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
 import { LogginButton } from "../scripts/login";
-
+import { LogoutButton } from "../scripts/logout";
 const IndexMenu = () => {
   return (
     <div>
@@ -20,6 +20,7 @@ const IndexMenu = () => {
       </Link>
       
       <LogginButton />
+      <LogoutButton />
     </div>
   );
 };
